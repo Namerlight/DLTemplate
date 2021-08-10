@@ -16,13 +16,15 @@ Install these libraries before using it.
 The directory structure should be like this:
 
 ```
+main.py
+readme.md
 --venv/
 --data/
 ----Test/
 ----Train/
 --training_models/
 --custom_dataloaders/
-main.py
+
 ```
 
 The `venv` and `data` folders are not included in the project.
