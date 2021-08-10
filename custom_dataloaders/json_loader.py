@@ -40,7 +40,6 @@ def get_dataset(train_data_loc, test_data_loc):
     test_all_data = []
     test_all_labels = []
 
-    train_data_loc = "I:/Code/Python/Deep Learning Templating/data/Train"
     all_files = os.listdir(train_data_loc)
 
     for i in range(len(all_files)):

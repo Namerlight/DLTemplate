@@ -18,6 +18,7 @@ def accuracy(out, labels):
 
 
 def train(batch_size, train, test, num_epochs, learning_rate, weight_decay, print_every):
+
     """
     Preprocessing as Needed
     """
@@ -133,18 +134,13 @@ if __name__ == '__main__':
     learning_rate = 0.001
     weight_decay = 0.0001
 
-
     update_every = 100
 
     """
     Data Directories
     """
-    train_data_loc = "data/Train"
-    test_data_loc = "data/Test"
-
-    """All the below is just because my dataset is scuffed af
-    Normally, you'd skip to train() and that'd be the end of it"""
-
+    train_data_loc = "I:/Code/Python/Deep Learning Templating/data/Train"
+    test_data_loc = "I:/Code/Python/Deep Learning Templating/data/Test"
 
     train(batch_size,
           train_data_loc,
